@@ -58,7 +58,7 @@ export const NotionPageHeader: React.FC<{
                   <components.PageLink
                     href={mapPageUrl(link.pageId)}
                     key={index}
-                    className={cs(styles.navLink, 'breadcrumb', 'button')}
+                    className={cs(styles.navLink)}
                   >
                     {link.title}
                   </components.PageLink>
@@ -68,7 +68,7 @@ export const NotionPageHeader: React.FC<{
                   <components.Link
                     href={link.url}
                     key={index}
-                    className={cs(styles.navLink, 'breadcrumb', 'button')}
+                    className={cs(styles.navLink,)}
                   >
                     {link.title}
                   </components.Link>

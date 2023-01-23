@@ -1,7 +1,5 @@
 import * as React from 'react'
-import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter'
-import { FaZhihu } from '@react-icons/all-files/fa/FaZhihu'
-import { FaGithub } from '@react-icons/all-files/fa/FaGithub'
+import { FaFacebook } from '@react-icons/all-files/fa/Fafacebook'
 import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin'
 import { FaEnvelopeOpenText } from '@react-icons/all-files/fa/FaEnvelopeOpenText'
 import { FaYoutube } from '@react-icons/all-files/fa/FaYoutube'
@@ -50,39 +48,15 @@ export const FooterImpl: React.FC = () => {
       </div>
 
       <div className={styles.social}>
-        {config.twitter && (
+        {config.facebook && (
           <a
-            className={styles.twitter}
-            href={`https://twitter.com/${config.twitter}`}
-            title={`Twitter @${config.twitter}`}
+            className={styles.facebook}
+            href={`https://www.facebook.com/${config.facebook}`}
+            title={`facebook @${config.facebook}`}
             target='_blank'
             rel='noopener noreferrer'
           >
-            <FaTwitter />
-          </a>
-        )}
-
-        {config.zhihu && (
-          <a
-            className={styles.zhihu}
-            href={`https://zhihu.com/people/${config.zhihu}`}
-            title={`Zhihu @${config.zhihu}`}
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <FaZhihu />
-          </a>
-        )}
-
-        {config.github && (
-          <a
-            className={styles.github}
-            href={`https://github.com/${config.github}`}
-            title={`GitHub @${config.github}`}
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <FaGithub />
+            <FaFacebook />
           </a>
         )}
 
