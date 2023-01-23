@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { FaFacebook } from '@react-icons/all-files/fa/Fafacebook'
+import { FaFacebook } from '@react-icons/all-files/fa/FaFacebook'
 import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin'
 import { FaEnvelopeOpenText } from '@react-icons/all-files/fa/FaEnvelopeOpenText'
 import { FaYoutube } from '@react-icons/all-files/fa/FaYoutube'
