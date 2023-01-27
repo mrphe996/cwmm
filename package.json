@@ -1,9 +1,9 @@
 {
-  "name": "nextjs-notion-starter-kit",
+  "name": "Atomic Education",
   "version": "2.0.0",
   "private": true,
-  "description": "The perfect starter kit for building beautiful websites with Next.js and Notion.",
-  "author": "Travis Fischer <travis@transitivebullsh.it>",
+  "description": "Mô hình học nhóm nhỏ và tutor 1:1 chuẩn quốc tế chất lượng cao ",
+  "author": "Atomic Education",
   "repository": "transitive-bullshit/nextjs-notion-starter-kit",
   "license": "MIT",
   "engines": {

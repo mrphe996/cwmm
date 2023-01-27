@@ -9,12 +9,12 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Next.js Notion Starter Kit',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
+  name: 'Atomic Education',
+  domain: 'atomic.edu.vn',
   author: 'Atomic Education',
 
   // open graph metadata (optional)
-  description: 'Mô hình 1:1 và theo nhóm hiệu quả cùng với Education',
+  description: 'Mô hình học nhóm nhỏ và tutor 1:1 chuẩn quốc tế chất lượng cao ',
 
   // social usernames (optional)
   linkedin: 'fisch2',

@@ -162,6 +162,11 @@ const style = `
 :root {
   --padding: 8vmin;
 }
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Inter', sans-serif;
   padding: 0;
