@@ -10,7 +10,8 @@ export interface SiteConfig {
   description?: string
   language?: string
 
-  linkedin?: string
+  linkedin?
+  gmail?;
   newsletter?: string
   youtube?: string
   facebook?: string
